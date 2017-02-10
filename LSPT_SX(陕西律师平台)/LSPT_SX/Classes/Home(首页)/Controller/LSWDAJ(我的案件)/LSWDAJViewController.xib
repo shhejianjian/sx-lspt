@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSWDAJViewController">
+            <connections>
+                <outlet property="noDetailView" destination="PcR-9W-U8z" id="qjZ-QB-0pr"/>
+                <outlet property="searchDisplayController" destination="JRS-yz-Z9r" id="4BX-cw-bjc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wdajTableView" destination="6zH-18-CRK" id="4sp-N7-Wd6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6zH-18-CRK">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="wus-V1-EGv"/>
+                        <outlet property="delegate" destination="-1" id="fzZ-WM-ek7"/>
+                    </connections>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PcR-9W-U8z">
+                    <rect key="frame" x="20" y="70" width="280" height="227"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaoren" translatesAutoresizingMaskIntoConstraints="NO" id="eDo-fU-i6n">
+                            <rect key="frame" x="98" y="15" width="84" height="136"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没有加载到数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="042-pa-BRQ">
+                            <rect key="frame" x="80" y="176" width="119" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="eDo-fU-i6n" firstAttribute="height" secondItem="PcR-9W-U8z" secondAttribute="height" multiplier="0.6" id="BU2-iF-o7r"/>
+                        <constraint firstItem="eDo-fU-i6n" firstAttribute="top" secondItem="PcR-9W-U8z" secondAttribute="top" constant="15" id="Ebu-lg-a68"/>
+                        <constraint firstItem="eDo-fU-i6n" firstAttribute="width" secondItem="PcR-9W-U8z" secondAttribute="width" multiplier="0.3" id="JOF-QY-cgB"/>
+                        <constraint firstAttribute="width" secondItem="PcR-9W-U8z" secondAttribute="height" multiplier="280:227" id="LTh-KO-bKF"/>
+                        <constraint firstItem="042-pa-BRQ" firstAttribute="top" secondItem="eDo-fU-i6n" secondAttribute="bottom" constant="25" id="NYW-dY-VlK"/>
+                        <constraint firstItem="042-pa-BRQ" firstAttribute="centerX" secondItem="eDo-fU-i6n" secondAttribute="centerX" id="jr6-AA-bKW"/>
+                        <constraint firstItem="eDo-fU-i6n" firstAttribute="centerX" secondItem="PcR-9W-U8z" secondAttribute="centerX" id="m9h-O4-JxI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6zH-18-CRK" secondAttribute="bottom" id="1ni-J0-NEZ"/>
+                <constraint firstAttribute="trailing" secondItem="PcR-9W-U8z" secondAttribute="trailing" constant="20" id="E1e-vG-GBV"/>
+                <constraint firstItem="PcR-9W-U8z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="GVy-6b-MoT"/>
+                <constraint firstAttribute="trailing" secondItem="6zH-18-CRK" secondAttribute="trailing" id="J2X-FA-KFH"/>
+                <constraint firstItem="6zH-18-CRK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JXO-Nj-jbS"/>
+                <constraint firstItem="PcR-9W-U8z" firstAttribute="width" secondItem="PcR-9W-U8z" secondAttribute="height" multiplier="280:227" id="NH9-1h-at1"/>
+                <constraint firstItem="6zH-18-CRK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="QkG-9q-geW"/>
+                <constraint firstItem="PcR-9W-U8z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="bZY-Mr-tyU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="262" y="234"/>
+        </view>
+        <searchDisplayController id="JRS-yz-Z9r">
+            <connections>
+                <outlet property="delegate" destination="-1" id="5FM-Mi-r39"/>
+                <outlet property="searchContentsController" destination="-1" id="li7-E7-fVm"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="XZC-SL-Hgs"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="HZH-Nz-f27"/>
+            </connections>
+        </searchDisplayController>
+    </objects>
+    <resources>
+        <image name="xiaoren" width="113" height="197"/>
+    </resources>
+</document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSTSBRViewController">
+            <connections>
+                <outlet property="noDetailView" destination="8aP-XP-kEc" id="N3u-eK-VFL"/>
+                <outlet property="tsbrTableView" destination="ro8-EG-TLW" id="cWY-de-PAa"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ro8-EG-TLW">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="6sS-sI-Hs3"/>
+                        <outlet property="delegate" destination="-1" id="zpS-g8-1n0"/>
+                    </connections>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8aP-XP-kEc">
+                    <rect key="frame" x="20" y="70" width="280" height="227"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaoren" translatesAutoresizingMaskIntoConstraints="NO" id="aSg-B8-mk6">
+                            <rect key="frame" x="98" y="15" width="84" height="136"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没有加载到数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TC-qH-mJ7">
+                            <rect key="frame" x="80" y="176" width="119" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="aSg-B8-mk6" firstAttribute="centerX" secondItem="8aP-XP-kEc" secondAttribute="centerX" id="AVa-4m-bRP"/>
+                        <constraint firstItem="aSg-B8-mk6" firstAttribute="height" secondItem="8aP-XP-kEc" secondAttribute="height" multiplier="0.6" id="GE7-g4-thi"/>
+                        <constraint firstItem="1TC-qH-mJ7" firstAttribute="centerX" secondItem="aSg-B8-mk6" secondAttribute="centerX" id="fXF-Uo-8RW"/>
+                        <constraint firstItem="aSg-B8-mk6" firstAttribute="width" secondItem="8aP-XP-kEc" secondAttribute="width" multiplier="0.3" id="fvo-qM-Sja"/>
+                        <constraint firstItem="1TC-qH-mJ7" firstAttribute="top" secondItem="aSg-B8-mk6" secondAttribute="bottom" constant="25" id="h0g-2o-eMv"/>
+                        <constraint firstAttribute="width" secondItem="8aP-XP-kEc" secondAttribute="height" multiplier="280:227" id="lkv-Jp-fsk"/>
+                        <constraint firstItem="aSg-B8-mk6" firstAttribute="top" secondItem="8aP-XP-kEc" secondAttribute="top" constant="15" id="rbh-CI-c04"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ro8-EG-TLW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="F3g-lY-UTf"/>
+                <constraint firstItem="8aP-XP-kEc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="T8M-PG-05a"/>
+                <constraint firstItem="8aP-XP-kEc" firstAttribute="width" secondItem="8aP-XP-kEc" secondAttribute="height" multiplier="280:227" id="a9A-Vs-05c"/>
+                <constraint firstAttribute="trailing" secondItem="8aP-XP-kEc" secondAttribute="trailing" constant="20" id="fRY-so-kZJ"/>
+                <constraint firstItem="8aP-XP-kEc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="mIw-LO-izX"/>
+                <constraint firstAttribute="bottom" secondItem="ro8-EG-TLW" secondAttribute="bottom" id="wH7-eO-FF2"/>
+                <constraint firstItem="ro8-EG-TLW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wNt-cC-ZRd"/>
+                <constraint firstAttribute="trailing" secondItem="ro8-EG-TLW" secondAttribute="trailing" id="xdS-Gl-qap"/>
+            </constraints>
+            <point key="canvasLocation" x="288" y="367"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xiaoren" width="113" height="197"/>
+    </resources>
+</document>

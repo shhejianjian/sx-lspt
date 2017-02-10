@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="LSChangeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="传票什么的" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvR-iB-Y83">
+                        <rect key="frame" x="60" y="5" width="250" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UDg-Ee-8nJ">
+                        <rect key="frame" x="15" y="9" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="P04-Mz-zey"/>
+                            <constraint firstAttribute="width" constant="25" id="gvn-aV-lnp"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <state key="selected" backgroundImage="gou"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="fvR-iB-Y83" secondAttribute="bottom" constant="5" id="86L-PQ-ucK"/>
+                    <constraint firstItem="fvR-iB-Y83" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Nu3-m9-6o4"/>
+                    <constraint firstItem="fvR-iB-Y83" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="60" id="OVN-Lf-1Vn"/>
+                    <constraint firstItem="UDg-Ee-8nJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="YMD-vo-MFt"/>
+                    <constraint firstAttribute="trailing" secondItem="fvR-iB-Y83" secondAttribute="trailing" constant="10" id="h6X-pV-OOC"/>
+                    <constraint firstItem="UDg-Ee-8nJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="zRf-8O-CLh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="selectBtn" destination="UDg-Ee-8nJ" id="Urp-wX-vTL"/>
+                <outlet property="yjnrLabel" destination="fvR-iB-Y83" id="TZ0-5f-Bod"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gou" width="92" height="88"/>
+    </resources>
+</document>

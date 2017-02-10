@@ -1,0 +1,156 @@
+
+/* Class = "UIViewController"; title = "律师平台"; ObjectID = "0gL-AM-g7F"; */
+"0gL-AM-g7F.title" = "律师平台";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1Tw-i7-Qrm"; */
+"1Tw-i7-Qrm.text" = "Label";
+
+/* Class = "UILabel"; text = "退出登录"; ObjectID = "1hL-IU-zzr"; */
+"1hL-IU-zzr.text" = "退出登录";
+
+/* Class = "UILabel"; text = "庭审避让"; ObjectID = "1tG-id-EDW"; */
+"1tG-id-EDW.text" = "庭审避让";
+
+/* Class = "UITextField"; placeholder = "请重新输入密码"; ObjectID = "45b-pA-R3u"; */
+"45b-pA-R3u.placeholder" = "请重新输入密码";
+
+/* Class = "UILabel"; text = "我的姓名"; ObjectID = "4p5-uK-4UU"; */
+"4p5-uK-4UU.text" = "我的姓名";
+
+/* Class = "UILabel"; text = "标的额:"; ObjectID = "63T-Tu-vXs"; */
+"63T-Tu-vXs.text" = "标的额:";
+
+/* Class = "UILabel"; text = "我的案件"; ObjectID = "6kf-sp-Lob"; */
+"6kf-sp-Lob.text" = "我的案件";
+
+/* Class = "UILabel"; text = "待收文书"; ObjectID = "6rE-aX-7CC"; */
+"6rE-aX-7CC.text" = "待收文书";
+
+/* Class = "UILabel"; text = "立案理由:"; ObjectID = "7KM-oz-wNO"; */
+"7KM-oz-wNO.text" = "立案理由:";
+
+/* Class = "UINavigationItem"; title = "律师平台"; ObjectID = "7ew-hu-Hy0"; */
+"7ew-hu-Hy0.title" = "律师平台";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "At7-tF-avG"; */
+"At7-tF-avG.text" = "Label";
+
+/* Class = "UILabel"; text = "【名称】"; ObjectID = "Dcs-6O-xBY"; */
+"Dcs-6O-xBY.text" = "【名称】";
+
+/* Class = "UILabel"; text = "软件更新"; ObjectID = "ENm-iV-tbN"; */
+"ENm-iV-tbN.text" = "软件更新";
+
+/* Class = "UILabel"; text = "收案日期:"; ObjectID = "J4F-JT-erK"; */
+"J4F-JT-erK.text" = "收案日期:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JFG-7n-8PP"; */
+"JFG-7n-8PP.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "L6X-2p-n6J"; */
+"L6X-2p-n6J.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "【诉讼地位】"; ObjectID = "LCo-UG-A0B"; */
+"LCo-UG-A0B.text" = "【诉讼地位】";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "O8Y-tb-iwg"; */
+"O8Y-tb-iwg.text" = "Label";
+
+/* Class = "UILabel"; text = "用户登录"; ObjectID = "PA3-w0-jpp"; */
+"PA3-w0-jpp.text" = "用户登录";
+
+/* Class = "UILabel"; text = "立案部门:"; ObjectID = "Qbi-8H-SWE"; */
+"Qbi-8H-SWE.text" = "立案部门:";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "Qv4-I8-zuC"; */
+"Qv4-I8-zuC.placeholder" = "请输入密码";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "RUE-6d-ViO"; */
+"RUE-6d-ViO.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "立案人:"; ObjectID = "RhU-ua-0DE"; */
+"RhU-ua-0DE.text" = "立案人:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "S6D-AL-MXj"; */
+"S6D-AL-MXj.text" = "Label";
+
+/* Class = "UILabel"; text = "立案日期:"; ObjectID = "Ty9-HI-tUa"; */
+"Ty9-HI-tUa.text" = "立案日期:";
+
+/* Class = "UILabel"; text = "修改密码"; ObjectID = "ah3-dv-yYe"; */
+"ah3-dv-yYe.text" = "修改密码";
+
+/* Class = "UILabel"; text = "网上阅卷"; ObjectID = "bhw-6Q-XtN"; */
+"bhw-6Q-XtN.text" = "网上阅卷";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "boo-FW-Gzz"; */
+"boo-FW-Gzz.text" = "Label";
+
+/* Class = "UILabel"; text = "联系法官"; ObjectID = "c0Q-g5-YGH"; */
+"c0Q-g5-YGH.text" = "联系法官";
+
+/* Class = "UIViewController"; title = "个人中心"; ObjectID = "dBu-Fr-1Wv"; */
+"dBu-Fr-1Wv.title" = "个人中心";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dU2-Cx-FzB"; */
+"dU2-Cx-FzB.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "请输入新密码"; ObjectID = "eKD-P3-zRJ"; */
+"eKD-P3-zRJ.placeholder" = "请输入新密码";
+
+/* Class = "UILabel"; text = "案件字号:"; ObjectID = "eTa-RK-nLR"; */
+"eTa-RK-nLR.text" = "案件字号:";
+
+/* Class = "UILabel"; text = "案件来源:"; ObjectID = "hzB-32-EQg"; */
+"hzB-32-EQg.text" = "案件来源:";
+
+/* Class = "UILabel"; text = "意见建议"; ObjectID = "kaB-Jd-fTk"; */
+"kaB-Jd-fTk.text" = "意见建议";
+
+/* Class = "UILabel"; text = "信息提交"; ObjectID = "l3y-cv-ddi"; */
+"l3y-cv-ddi.text" = "信息提交";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lAU-CL-oy3"; */
+"lAU-CL-oy3.text" = "Label";
+
+/* Class = "UILabel"; text = "延期开庭"; ObjectID = "oXn-zE-OPo"; */
+"oXn-zE-OPo.text" = "延期开庭";
+
+/* Class = "UITextField"; placeholder = "请输入律师证号"; ObjectID = "ojm-fh-Ymv"; */
+"ojm-fh-Ymv.placeholder" = "请输入律师证号";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pDj-Cj-Ips"; */
+"pDj-Cj-Ips.text" = "Label";
+
+/* Class = "UILabel"; text = "应缴费:"; ObjectID = "pau-Nx-vdT"; */
+"pau-Nx-vdT.text" = "应缴费:";
+
+/* Class = "UITextField"; placeholder = "请输入旧密码"; ObjectID = "qSV-nX-juz"; */
+"qSV-nX-juz.placeholder" = "请输入旧密码";
+
+/* Class = "UILabel"; text = "诉讼指南"; ObjectID = "qgC-Be-a4J"; */
+"qgC-Be-a4J.text" = "诉讼指南";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "stB-Ye-0yd"; */
+"stB-Ye-0yd.text" = "Label";
+
+/* Class = "UILabel"; text = "网上立案"; ObjectID = "tGd-dL-6ZU"; */
+"tGd-dL-6ZU.text" = "网上立案";
+
+/* Class = "UILabel"; text = "类别:"; ObjectID = "tV1-de-4V3"; */
+"tV1-de-4V3.text" = "类别:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "uFx-5P-w2Y"; */
+"uFx-5P-w2Y.text" = "Label";
+
+/* Class = "UILabel"; text = "诉讼保全"; ObjectID = "uNW-vw-BpG"; */
+"uNW-vw-BpG.text" = "诉讼保全";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xzM-t2-wS1"; */
+"xzM-t2-wS1.text" = "Label";
+
+/* Class = "UILabel"; text = "意见建议"; ObjectID = "yaw-fh-xix"; */
+"yaw-fh-xix.text" = "意见建议";
+
+/* Class = "UILabel"; text = "调查令"; ObjectID = "z4k-cY-V67"; */
+"z4k-cY-V67.text" = "调查令";

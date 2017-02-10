@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LSCLTJViewController">
+            <connections>
+                <outlet property="cltjTableView" destination="neO-sm-2ie" id="f2J-dg-Z2u"/>
+                <outlet property="noDetailView" destination="Xb7-Qj-CDu" id="DZs-pq-fHd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="neO-sm-2ie">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="mLH-2b-KYB"/>
+                        <outlet property="delegate" destination="-1" id="c6g-xR-DIU"/>
+                    </connections>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xb7-Qj-CDu">
+                    <rect key="frame" x="20" y="70" width="280" height="227"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaoren" translatesAutoresizingMaskIntoConstraints="NO" id="nBI-hZ-u1g">
+                            <rect key="frame" x="98" y="15" width="84" height="136"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没有加载到数据" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdD-3A-FXp">
+                            <rect key="frame" x="80" y="176" width="119" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="nBI-hZ-u1g" firstAttribute="width" secondItem="Xb7-Qj-CDu" secondAttribute="width" multiplier="0.3" id="56S-Y3-nYd"/>
+                        <constraint firstItem="nBI-hZ-u1g" firstAttribute="top" secondItem="Xb7-Qj-CDu" secondAttribute="top" constant="15" id="7gX-MA-QMD"/>
+                        <constraint firstAttribute="width" secondItem="Xb7-Qj-CDu" secondAttribute="height" multiplier="280:227" id="HtG-4l-BLJ"/>
+                        <constraint firstItem="nBI-hZ-u1g" firstAttribute="centerX" secondItem="Xb7-Qj-CDu" secondAttribute="centerX" id="TG5-ep-6ae"/>
+                        <constraint firstItem="nBI-hZ-u1g" firstAttribute="height" secondItem="Xb7-Qj-CDu" secondAttribute="height" multiplier="0.6" id="WNY-mx-eNw"/>
+                        <constraint firstItem="jdD-3A-FXp" firstAttribute="centerX" secondItem="nBI-hZ-u1g" secondAttribute="centerX" id="gSB-dO-syE"/>
+                        <constraint firstItem="jdD-3A-FXp" firstAttribute="top" secondItem="nBI-hZ-u1g" secondAttribute="bottom" constant="25" id="rac-2R-HGF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="neO-sm-2ie" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="0DY-hs-yQB"/>
+                <constraint firstAttribute="trailing" secondItem="Xb7-Qj-CDu" secondAttribute="trailing" constant="20" id="Ge6-Cx-kY6"/>
+                <constraint firstItem="Xb7-Qj-CDu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="NnL-3P-Q8p"/>
+                <constraint firstAttribute="bottom" secondItem="neO-sm-2ie" secondAttribute="bottom" id="QOw-MX-sQS"/>
+                <constraint firstItem="Xb7-Qj-CDu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="dwZ-Pw-c54"/>
+                <constraint firstAttribute="trailing" secondItem="neO-sm-2ie" secondAttribute="trailing" id="nT9-xL-JIX"/>
+                <constraint firstItem="neO-sm-2ie" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zPH-7D-aGG"/>
+            </constraints>
+            <point key="canvasLocation" x="340" y="380"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xiaoren" width="113" height="197"/>
+    </resources>
+</document>
